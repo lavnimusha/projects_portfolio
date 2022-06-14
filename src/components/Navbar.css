@@ -1,0 +1,32 @@
+.navigation{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  .navigation a{
+    text-decoration: none;
+    color: rgb(238, 109, 109);
+    border: 1px solid grey;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    padding:  0 0.5rem 0 0.6rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    
+  }
+  .navbar{
+    /* background-color: cornsilk; */
+    padding: 0.1rem;
+     position: absolute;
+    
+  }
+  .home{
+    font-family: 'Dancing Script', cursive;  
+  }
+  @media screen and (max-width: 600px) {
+      .navigation a{
+          font-size: 1rem;
+      }
+  }
